@@ -1,0 +1,5 @@
+const ABI = [ { "constant": true, "inputs": [], "name": "getData", "outputs": [ { "name": "", "type": "string", "value": "wqrwerwet" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [ { "name": "helloString", "type": "string" } ], "name": "setData", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "owner", "outputs": [ { "name": "", "type": "address", "value": "0xf6e76e066b0e72ec55aeaf261c2ae1a41ba42aa7" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [ { "name": "newOwner", "type": "address" } ], "name": "transferOwnership", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" } ]
+
+const address = "0x10Cce244e33e134aF2d573F05af707d814Cd8387";
+
+module.exports = { ABI, address };
